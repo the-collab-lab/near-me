@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* defines what 1 rem is */
+  font-size: 62.5%; /* 1 rem = 10px; 10px/16px = 62.5% */
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 2rem;
+}
+
+.main {
+  height: 66vh;
+}
+
+.footer {
+  height: 33vh;
+}
