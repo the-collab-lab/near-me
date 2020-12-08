@@ -1,7 +1,9 @@
+import Map from "./Map";
+
 const Main = () => {
   return (
     <main className="main">
-      <p>Main</p>
+      <Map />
     </main>
   );
 };

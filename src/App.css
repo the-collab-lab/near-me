@@ -28,6 +28,11 @@ body {
   height: 66vh;
 }
 
+.map {
+  height: 100%;
+  width: 100vw;
+}
+
 .footer {
   height: 33vh;
 }
